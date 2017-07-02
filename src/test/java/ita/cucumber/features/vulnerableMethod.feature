@@ -2,11 +2,14 @@
 # Date: 07/01/2017
 
 @test1
-Feature: Calculator
-	#As a user
-	#I want to use a calculator
-	#So that I don't have to calculate myself
-	Scenario: Add two numbers
-	Given I have a calculator
-	When I add 2 and 3
-	Then the result should be 5
+Feature: vulnerableMethod
+Scenario: Opening an existing file that has content
+	Given I have a file in "src/notEmpty.txt"
+	When it has content
+	Then its content should be printed
+
+Scenario: Opening an existing file that has no content
+	Given I have a file in "src/empty.txt"
+	When it has no content
+	Then its content should not be printed
+

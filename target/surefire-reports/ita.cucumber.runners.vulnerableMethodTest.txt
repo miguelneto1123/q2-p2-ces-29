@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: ita.cucumber.runners.vulnerableMethodTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.736 sec <<< FAILURE!
+Then its content should be printed(Scenario: Opening an existing file that has content)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at ita.cucumber.steps.vulnerableMethodSteps.itsContentShouldBePrinted(vulnerableMethodSteps.java:54)
+	at ✽.Then its content should be printed(vulnerableMethod.feature:9)
+
+Scenario: Opening an existing file that has content  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: is <true>
+     but: was <false>
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at ita.cucumber.steps.vulnerableMethodSteps.itsContentShouldBePrinted(vulnerableMethodSteps.java:54)
+	at ✽.Then its content should be printed(vulnerableMethod.feature:9)
+
