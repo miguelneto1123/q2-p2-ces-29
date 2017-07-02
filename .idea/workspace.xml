@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b9ec3bc-d25c-4c36-a279-0e29cf331984" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ita/VulnerableClassTest.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ita/VulnerableClass.class" afterPath="$PROJECT_DIR$/target/classes/ita/VulnerableClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/ita/cucumber/steps/vulnerableMethodSteps.class" afterPath="$PROJECT_DIR$/target/test-classes/ita/cucumber/steps/vulnerableMethodSteps.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ita/VulnerableClass.java" afterPath="$PROJECT_DIR$/src/main/java/ita/VulnerableClass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/notEmpty.txt" afterPath="$PROJECT_DIR$/src/notEmpty.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ita/cucumber/features/vulnerableMethod.feature" afterPath="$PROJECT_DIR$/src/test/java/ita/cucumber/features/vulnerableMethod.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ita/cucumber/runners/vulnerableMethodTest.java" afterPath="$PROJECT_DIR$/src/test/java/ita/cucumber/runners/vulnerableMethodTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/ita/cucumber/steps/vulnerableMethodSteps.java" afterPath="$PROJECT_DIR$/src/test/java/ita/cucumber/steps/vulnerableMethodSteps.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ita.cucumber.runners.vulnerableMethodTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-ita.cucumber.runners.vulnerableMethodTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/ita.cucumber.runners.vulnerableMethodTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/ita.cucumber.runners.vulnerableMethodTest.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,8 +52,8 @@
       <file leaf-file-name="VulnerableClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ita/VulnerableClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="206">
+              <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="29" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -56,11 +61,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="notEmpty.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/notEmpty.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="vulnerableMethod.feature" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ita/cucumber/features/vulnerableMethod.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="-65">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -69,18 +84,8 @@
       <file leaf-file-name="vulnerableMethodSteps.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ita/cucumber/steps/vulnerableMethodSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="58" column="88" lean-forward="false" selection-start-line="58" selection-start-column="88" selection-end-line="58" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vulnerableMethodTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ita/cucumber/runners/vulnerableMethodTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="446">
+              <caret line="103" column="49" lean-forward="false" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -103,8 +108,9 @@
         <option value="$PROJECT_DIR$/src/test/java/ita/cucumber/runners/vulnerableMethodTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/ita/cucumber/features/not-empty.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/ita/VulnerableClass.java" />
+        <option value="$PROJECT_DIR$/src/notEmpty.txt" />
         <option value="$PROJECT_DIR$/src/test/java/ita/cucumber/steps/vulnerableMethodSteps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ita/VulnerableClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/ita/cucumber/features/vulnerableMethod.feature" />
       </list>
     </option>
@@ -742,39 +748,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 08m 20s.xml">
+    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 38m 58s.xml">
       <configuration name="vulnerableMethodTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 09m 28s.xml">
+    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 39m 20s.xml">
       <configuration name="vulnerableMethodTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 10m 42s.xml">
+    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 43m 44s.xml">
       <configuration name="vulnerableMethodTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 14m 56s.xml">
+    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 44m 40s.xml">
       <configuration name="vulnerableMethodTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 17m 01s.xml">
+    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 46m 33s.xml">
       <configuration name="vulnerableMethodTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 17m 19s.xml">
+    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 47m 14s.xml">
       <configuration name="vulnerableMethodTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 18m 50s.xml">
+    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 48m 55s.xml">
       <configuration name="vulnerableMethodTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 21m 54s.xml">
+    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 49m 56s.xml">
       <configuration name="vulnerableMethodTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 23m 01s.xml">
+    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 51m 47s.xml">
       <configuration name="vulnerableMethodTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 23m 22s.xml">
+    <history-entry file="vulnerableMethodTest - 2017.07.02 at 08h 53m 18s.xml">
       <configuration name="vulnerableMethodTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6788000" />
+    <option name="totallyTimeSpent" value="8607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -1174,33 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/notEmpty.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ita/cucumber/runners/vulnerableMethodTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/empty.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1217,16 +1196,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ita/VulnerableClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="25" column="20" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ita/VulnerableClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
@@ -1235,18 +1204,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ita/cucumber/runners/vulnerableMethodTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="9" column="71" lean-forward="false" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ita/cucumber/steps/vulnerableMethodSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="58" column="88" lean-forward="false" selection-start-line="58" selection-start-column="88" selection-end-line="58" selection-end-column="88" />
+        <state relative-caret-position="446">
+          <caret line="103" column="49" lean-forward="false" selection-start-line="103" selection-start-column="49" selection-end-line="103" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/notEmpty.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ita/VulnerableClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ita/cucumber/features/vulnerableMethod.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="-65">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

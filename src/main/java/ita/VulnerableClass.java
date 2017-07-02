@@ -19,31 +19,26 @@ public class VulnerableClass {
 
 			if (opr.toUpperCase().equals("R")){
 				BufferedReader br;
-
 				try {
 					String sCurrentLine;
-
 					br = new BufferedReader(new FileReader(FILENAME), 2048);
-
 					while ((sCurrentLine = br.readLine()) != null) {
 						System.out.println(sCurrentLine);
 					}
-
+					br.close();
 				} catch (IOException e) {
 					e.printStackTrace();
 					return false;
 				}
-			}
-
-			else if (opr.toUpperCase().equals("W")){
+			} else if (opr.toUpperCase().equals("W")){
 				BufferedWriter buffWrite;
-
 				try {
-					buffWrite = new BufferedWriter(new FileWriter(FILENAME), 2048);
+					buffWrite = new BufferedWriter(new FileWriter(FILENAME, true), 2048);
 					System.out.println("Escreva algo: ");
 					String linha = console.nextLine();
-					buffWrite.append(linha);
-					buffWrite.append("\n");
+					buffWrite.write(linha);
+					buffWrite.write("\n");
+					buffWrite.close();
 				} catch (IOException e) {
 					e.printStackTrace();
 					return false;

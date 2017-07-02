@@ -13,3 +13,17 @@ Scenario: Opening an existing file that has no content
 	When it has no content
 	Then its content should not be printed
 
+Scenario: Trying to open a non-existing file
+	Given I have a file in "src/nonExistant.txt"
+	When it does not exist and I am trying to read it
+	Then it should not work
+
+Scenario: Trying to append to a file
+	Given I have a file in "src/notEmpty.txt"
+	When I attempt to write on it
+	Then it should work
+
+Scenario: Trying to write to a new file
+	Given I have a file in "src/new.txt"
+	When I attempt to write on it
+	Then it should work
