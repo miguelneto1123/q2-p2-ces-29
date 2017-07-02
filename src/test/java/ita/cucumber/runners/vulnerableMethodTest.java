@@ -17,5 +17,5 @@ import org.junit.runner.RunWith;
 /**
  * Created by miguel on 7/1/17.
  */
-public class test1runnerTest {
+public class vulnerableMethodTest {
 }

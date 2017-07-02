@@ -11,7 +11,7 @@ import static org.hamcrest.MatcherAssert.assertThat;
 /**
  * Created by miguel on 7/1/17.
  */
-public class test1steps {
+public class vulnerableMethodSteps {
     private int result;
 
     @Given("^I have a calculator$")
